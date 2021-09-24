@@ -22,5 +22,16 @@ export default {
     background-color: #1c1c1c;
 }
 
+.container-main{
+    width: $generalWidth;
+    margin: $generalMargin;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
 
 </style>

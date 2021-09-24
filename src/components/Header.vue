@@ -9,8 +9,8 @@
                             <a href="#">Characters</a>
                         </li>
 
-                        <li>
-                            <a href="#" class="active">Comics</a>
+                        <li  class="active">
+                            <a href="#">Comics</a>
                         </li>
 
                         <li>
@@ -67,24 +67,26 @@ export default {
 .conteiner-header{
     width: $generalWidth;
     margin: $generalMargin;
-    padding-top: 30px;
     height: 100%;
     display: flex;
     justify-content: space-between;
 
     img{
         height: 100px;
+        padding: 15px;
     }
 }
 
 ul{
     list-style: none;
     display: flex;
-    align-items: center;
     height: 100%;
 
     li{
         padding: 0px 10px;
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
 
     li a{
@@ -92,14 +94,18 @@ ul{
         color: black;
         text-transform: uppercase;
         font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 700;       
+        font-weight: 700;
+        vertical-align: middle;
     }
 }
 
 .active{ 
-    color: $primaryDCcolor;
+    a{
+        color: $primaryDCcolor;
+
+    }
     border-bottom: 5px solid $primaryDCcolor;
-    padding-bottom: 65%;
+    // padding-bottom: 65%;
 }
 
 </style>
