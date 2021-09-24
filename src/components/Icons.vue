@@ -1,6 +1,6 @@
 <template>
-  <div>
-        <main class="bg-icons">
+    <div>
+        <div class="bg-icons">
             <div class="container-icons">
                 <div class="icon-img">
                     <img src="../assets/img/buy-comics-digital-comics.png" alt="Smatphone DC">
@@ -27,7 +27,7 @@
                     <h4>Digital Comics</h4>
                 </div>
             </div>
-        </main>
+        </div>
     </div>
 </template>
 

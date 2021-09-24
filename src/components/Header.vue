@@ -87,6 +87,8 @@ ul{
         height: 100%;
         display: flex;
         align-items: center;
+        border-bottom: 5px solid transparent;
+
     }
 
     li a{

@@ -4,6 +4,7 @@
     <Main/>
     <Icons/>
     <Footer/>
+    <FollowUs/>
   </div>
 </template>
 
@@ -12,8 +13,7 @@ import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Icons from './components/Icons.vue'
 import Footer from './components/Footer.vue'
-
-
+import FollowUs from './components/FollowUs.vue'
 
 export default {
   name: 'App',
@@ -21,7 +21,8 @@ export default {
     Header,
     Main,
     Icons,
-    Footer
+    Footer,
+    FollowUs
   }
 }
 </script>

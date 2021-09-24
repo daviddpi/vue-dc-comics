@@ -26,7 +26,7 @@ export default {
     width: $generalWidth;
     margin: $generalMargin;
     display: flex;
-    height: 100px;
+    height: 120px;
     align-items: center;
     color: $whiteColor;
     font-family: 'Roboto Condensed', sans-serif;
