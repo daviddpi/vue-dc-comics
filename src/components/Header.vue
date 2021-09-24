@@ -73,7 +73,7 @@ export default {
 
     img{
         height: 100px;
-        padding: 15px;
+        padding: 15px 0px;
     }
 }
 

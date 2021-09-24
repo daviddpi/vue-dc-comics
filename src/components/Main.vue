@@ -28,10 +28,8 @@ export default {
     display: flex;
     height: 100px;
     align-items: center;
-    color: white;
+    color: $whiteColor;
     font-family: 'Roboto Condensed', sans-serif;
-
 }
-
 
 </style>
