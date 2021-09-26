@@ -3,29 +3,30 @@
         <div class="bg-icons">
             <div class="container-icons">
                 <div class="icon-img">
-                    <img src="../assets/img/buy-comics-digital-comics.png" alt="Smatphone DC">
+                    <img src="../assets/img/buy-comics-digital-comics.png" alt="DC Icons">
                     <h4>Digital Comics</h4>
                 </div>
 
                 <div class="icon-img">
-                    <img src="../assets/img/buy-comics-merchandise.png" alt="Merchandise DC">
-                    <h4>Digital Comics</h4>
+                    <img src="../assets/img/buy-comics-merchandise.png" alt="DC Icons">
+                    <h4>Dc Merchandise</h4>
                 </div>
 
                 <div class="icon-img">
-                    <img src="../assets/img/buy-comics-subscriptions.png" alt="Subscriptions DC">
-                    <h4>Digital Comics</h4>
+                    <img src="../assets/img/buy-comics-subscriptions.png" alt="DC Icons">
+                    <h4>Subscription</h4>
                 </div>
 
                 <div class="icon-img">
-                    <img src="../assets/img/buy-comics-shop-locator.png" alt="Locator Shop DC">
-                    <h4>Digital Comics</h4>
+                    <img src="../assets/img/buy-comics-shop-locator.png" alt="DC Icons">
+                    <h4>Comic Shop Locator</h4>
                 </div>
 
                 <div class="icon-img">
-                    <img src="../assets/img/buy-dc-power-visa.svg" alt="Power DC">
-                    <h4>Digital Comics</h4>
+                    <img src="../assets/img/buy-dc-power-visa.svg" alt="DC Icons">
+                    <h4>Dc Power Visa</h4>
                 </div>
+
             </div>
         </div>
     </div>

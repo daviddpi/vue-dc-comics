@@ -5,43 +5,8 @@
                 <img src="../assets/img/dc-logo.png" alt="Logo DC">
                 <nav>
                     <ul>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-
-                        <li  class="active">
-                            <a href="#">Comics</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Movies</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Tv</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Games</a>
-                        </li>
-                        <li>
-                            <a href="#">Collectibles</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Videos</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Fans</a>
-                        </li>
-
-                        <li>
-                            <a href="#">News</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Shop</a>
+                        <li @click="changeNavItem(index)" v-for="(item, index) in navTitle" :key="item" :class="{'active': index == indiceNav}">
+                            <a :href="item.link">{{ item.name }}</a>
                         </li>
                     </ul>
                 </nav>
@@ -52,10 +17,75 @@
 
 <script>
 export default {
-    
+    data(){
+
+        return{
+            navTitle: [
+                {
+                    name: "Characters",
+                    link: "#",
+                },
+
+                {
+                    name: "Comics",
+                    link: "#",
+                },
+
+                {
+                    name: "Movies",
+                    link: "#",
+                },
+
+                {
+                    name: "Tv",
+                    link: "#",
+                },
+
+                {
+                    name: "Games",
+                    link: "#",
+                },
+
+                {
+                    name: "Collectibles",
+                    link: "#",
+                },
+
+                {
+                    name: "Videos",
+                    link: "#",
+                },
+
+                {
+                    name: "Fans",
+                    link: "#",
+                },
+
+                {
+                    name: "News",
+                    link: "#",
+                },
+
+                {
+                    name: "Shop",
+                    link: "#",
+                },
+
+            ],
+
+            indiceNav: 0,
+            
+        }
+    },
+
+    methods:{
+        changeNavItem(index){
+            this.indiceNav = index;
+        }
+    }
 }
 </script>
-
+   
 <style  lang="scss" scoped>
 @import '../style/general.scss';
 
