@@ -10,7 +10,7 @@
                 </div>
                 
                 <card v-for="(item, index) in CardDc" :key="index" :title="item.series" :source="item.thumb"/>
-                <button class="btn btn-comics">Load More</button>
+                <button class="btn" id="btn-comics">Load More</button>
 
             </div>
     
@@ -77,11 +77,15 @@ export default {
     }
 }
 
-.btn-comics{
+#btn-comics{
     background-color: $primaryDCcolor;
     border: 2px solid $primaryDCcolor;
     padding: 10px 40px;
     margin: 35px;
+
+    &:hover{
+        box-shadow: 2px 2px 2px 2px black;
+    }
 }
 
 

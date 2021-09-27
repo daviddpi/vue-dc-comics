@@ -22,5 +22,17 @@ export default {
         text-transform: uppercase;
         padding-top: 10px;
     }
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    img{
+
+        &:hover{
+            box-shadow: 2px 2px 2px 2px black;
+            filter: brightness(50%);
+        }
+    }
 }
 </style>

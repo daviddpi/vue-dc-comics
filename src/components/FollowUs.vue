@@ -75,6 +75,7 @@ export default {
 
         &:hover{
             cursor: pointer;
+            filter: brightness(200%);
         }
     }
 }
