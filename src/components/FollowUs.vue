@@ -2,7 +2,7 @@
     <div>
         <div class="bg-followUs">
             <div class="followUs-container">
-                <button class="myBtn">Sign-up Now!</button>
+                <button class="btn btn-footer">Sign-up Now!</button>
                 <div class="d-flex">
                     <div class="text-follow">
                         <h4>Follow Us</h4>
@@ -46,7 +46,7 @@ export default {
     display: flex;
 }
 
-.myBtn{
+.btn-footer{
     background-color: transparent;
     border: 2px solid $primaryDCcolor;
     padding: 15px;
