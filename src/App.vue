@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header/>
+    <!-- <Main/> -->
     <Comics/>
     <Icons/>
     <Footer/>
@@ -10,6 +11,7 @@
 
 <script>
 import Header from './components/Header.vue'
+// import Main from './components/Main.vue'
 import Comics from './components/Comics.vue'
 import Icons from './components/Icons.vue'
 import Footer from './components/Footer.vue'
@@ -19,6 +21,7 @@ export default {
   name: 'App',
   components: {
     Header,
+    // Main,
     Comics,
     Icons,
     Footer,

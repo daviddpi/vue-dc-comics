@@ -8,25 +8,22 @@
                 <div class="title-comics">
                     <h3>Current Series</h3>
                 </div>
-
-                <div class="card-comics" v-for="(item, index) in CardDc" :key="index">
-                    <img :src="item.thumb" alt="">
-                    <h5>{{ item.series }}</h5>
-                </div>        
                 
+                <card v-for="(item, index) in CardDc" :key="index" :title="item.series" :source="item.thumb"/>
                 <button class="btn btn-comics">Load More</button>
 
             </div>
-
     
         </div>
     </div>
 </template>
 
 <script>
-import CardDc from "../data/dc-comics.json"
+import Card from '../components/Card.vue'
+import CardDc from '../data/dc-comics.json'
 
 export default {
+  components: { Card },
     data(){
         return{
             CardDc,
@@ -35,7 +32,7 @@ export default {
 }
 </script>
 
-<style  lang="scss" scoped>
+<style  lang="scss">
 @import '../style/general.scss';
 
 .bg-comics{
@@ -55,7 +52,6 @@ export default {
     margin: $generalMargin;
     display: flex;
     flex-wrap: wrap;
-    // height: 500px;
     align-items: center;
     justify-content: center;
     color: $whiteColor;
@@ -78,17 +74,6 @@ export default {
             font-size: 1.5rem;
             padding: 10px 25px;
         }
-    }
-}
-
-.card-comics{
-    flex-basis: calc(100% / 6);
-    padding-top: 45px;
-
-    h5{
-        font-weight: 400;
-        text-transform: uppercase;
-        padding-top: 10px;
     }
 }
 
